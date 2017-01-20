@@ -1,0 +1,17 @@
+#search {
+  border: 0.5px light gray;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  length: 44px;
+}
+
+img {
+   position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
