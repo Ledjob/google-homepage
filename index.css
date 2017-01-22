@@ -1,0 +1,139 @@
+
+
+.sh {
+  position: absolute;
+  top: 31%;
+  left: 33%;
+  padding-top: 9px;
+  margin-top:85px;
+  width: 550px;
+  height: 35px;
+  border: 1px solid #e4e4e4;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-color: rgb(228, 228, 228);
+  border-right-color: rgb(228, 228, 228);
+  border-bottom-color: rgb(228, 228, 228);
+  border-left-color: rgb(228, 228, 228);
+  -moz-border-top-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  box-shadow: 1px 2px 7px 3px #dbd7d7;
+
+
+}
+
+
+
+#gl {
+   position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-bottom: 280px;
+
+}
+
+
+
+.lk {
+
+  display: inline;
+   text-decoration: none;
+
+}
+
+#app {
+  top: : 15px;
+}
+
+li {
+  display: inline;
+  float: right;
+  margin-right: 10px;
+}
+
+body {
+	font-family: arial,sans-serif;
+  font-size: 13px;
+  padding-top: 4px;
+
+}
+
+a {
+  color: #202020;
+   text-decoration: none;
+}
+
+a:hover {
+text-decoration: underline;
+}
+
+.btn {
+  padding-top: 380px;
+  padding-left: 628px;
+}
+
+input[type="button"] {
+  border: none;
+  padding: 5px 20px;
+  font-weight: 500;
+font-size: 14px;
+  color: #808080
+}
+
+#SearchField {
+  border: none;
+outline: none;
+font-size: 18px;
+}
+
+* Footer */
+
+#Footer {
+
+	display: block;
+	line-height: 40px;
+	background: #f2f2f2;
+	height: 40px;
+	position: absolute;
+	width: 100%;
+	border-top: 1px solid #e4e4e4;
+	/*margin-left: -27px;*/
+	right: 0px;
+
+}
+
+#footer-left {
+	text-align: left;
+	display: inline-block;
+	float: left;
+	margin-left: 3px;
+	/*margin-left: 30px;*/
+}
+
+#footer-right {
+	text-align: right;
+	display: inline-block;
+	float: right;
+	margin-right: 30px;
+}
+
+#Footer span a {
+	padding-left: 27px;
+	margin: 0 !important;
+	text-decoration: none;
+	color: #222;
+	opacity: .75;
+}
+
+#Footer span a:hover {
+	text-decoration: underline;
+}
