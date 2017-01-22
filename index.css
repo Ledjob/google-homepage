@@ -1,5 +1,10 @@
 
 
+#container {
+   min-height:100%;
+   position:relative;
+}
+
 .sh {
   position: absolute;
   top: 31%;
@@ -64,7 +69,16 @@ body {
 	font-family: arial,sans-serif;
   font-size: 13px;
   padding-top: 4px;
+  margin:0;
+   padding:0;
+   height:97%;
 
+
+}
+
+#body {
+  padding: 10px;
+  padding-bottom:40px;
 }
 
 a {
@@ -95,19 +109,21 @@ outline: none;
 font-size: 18px;
 }
 
-* Footer */
+/* Footer */
 
 #Footer {
-
+  position: absolute;
 	display: block;
 	line-height: 40px;
 	background: #f2f2f2;
-	height: 40px;
-	position: absolute;
+
 	width: 100%;
 	border-top: 1px solid #e4e4e4;
 	/*margin-left: -27px;*/
 	right: 0px;
+  bottom:0;
+
+
 
 }
 
